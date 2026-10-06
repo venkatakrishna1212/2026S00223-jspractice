@@ -40,7 +40,7 @@ console.log(venkat+abhinav);
  console.log(nani*pandu);
  console.log(nani/pandu);    
  console.log(nani-pandu);
- console.log(nani%pandu);
+ console.log(nani%pandu);   
 
  const c="5";
  const e=5;
@@ -55,7 +55,190 @@ console.log(venkat+abhinav);
  console.log(f!==e);
  console.log(e!=h);
 
+//  let raining=true;
+
+//  if(raining){console.log("umberella needed");}
+
+//  else{console.log("no umberella  needed");}
+
+//  let points = 72;
+//   if (points >= 90) { console.log("Grade: A");
+// }
+// else if (points >= 75) {
+//     console.log("Grade:B");
+// }
+// else if(points >=78){console.log("Grade:C");}
+//  else{ console.log("Grade:F" );}
+
+//  let username="venkat";
+//  if (username){
+//     console.log("welcome");
+//  }
+//  else{ console.log(" please enter your name");}
+
+// //  let weight="20";
+// //  if (weight){
+// //     console.log("Age");
+// //  }
+// // else{ console.log("please enter your weight");}
+
+// let number=10;
+// let chinni=number%2===0? "even":"odd";
+// console.log(chinni);
+
+// let visiterAge=15;
+// console.log(`your ticket price
+//      is ${visiterAge >18 ? 100 : 200 }.`);
+
+//      console.log(`your Age is
+//          ${visiterAge >14 ? 100: 200}.`);
+
+// const num = 5;       
+// for(i=1; i<=5; i++ )
+// {console.log(i);}
+
+// const fah = 7;
+// for (i=1; i<=10; i++)
+// {console.log(fah*i);}
+
+// const ma = 10;
+// for (i=1; i<15; i++)
+// { console.log(ma-i);}
+
+// let count = 0;
+// while (count < 5){
+//     console.log(`count is ${count}`);
+//     count ++;
+// }  
+
+// for (let i= 1; i<=10; i++){
+//     if (i == 6){
+//         break; //stop the loop entirely once i is 6
+//     }
+//     console.log(i); 
+
+// }
+// let counts = 5;
+// while (count >= 1){
+//     console.log(count);
+//     count --;
+
+// console.log("go!");}
+
+// for (let i=1; i<=20; i++){
+
+//     if(i % 3 ===0)
+//     {continue;}
+// console.log(i);
+
+// }
+// console.log("aa")
+// for(let i=1; i<=100; i++) {
+//     if(i >20 && i%5 ===0) {
+//          console.log(i)
+//         break;
+//     }
+    
+// }
+
+// function Student(name) {
+//     return `hello this is, ${name}!`;
+
+// }
+// console.log(Student("venkat"));
+// console.log(Student("nani"));
+
+// const x=10;
+// const y=20;
+// function add(x,y)
+// {
+//     return x+y;
+// }
+// const result=add(10,20);
+// console.log(result)
+
+// function square(num){
+//     return num**2
+//     return num*num
+// }
+// console.log(square(10));
+// function numbers(n) {
+//     if(n%15 === 0){
+//         return "hello";
+//     } 
+//     else if(n%5 === 0){
+//         return "hii";
+//     }
+//    else if(n % 3 === 0){
+//         return "welcome";
+
+//     }else{
+//         return String(n);
+//     }
+// }
+// for(let i=1; i<=20; i++){
+//     console.log(numbers(i)); 
+// }
+function student(name) {
+    return `${name}`;
+    
+}
+console.log(student("student name:venkat"));
+
+// console.log("marks:80");
+let marks=80;
+
+function student1(marks1){
+
+
+if (marks1 >=75)
+{
+   return "Grade: A"
+        
+    }
+
+    else if(marks1 >=60)
+        {
+        return "Grade:B"
+    }
+    else if(marks1 >=40)
+        {
+         return "Grade: C"
+    
+    }
+    else{
+         return "Grade: F "
+       
+    }
+}
+console.log(student1(marks));
+console.log(`marks:${marks}`);
+
+
+let Attendence=80;
+function regular(Attendence){
+
+    if(Attendence >= 50){
+        
+        return "Attendance:satisfied"
+    }
+
+else if(Attendence <= 49){
+    return "Attendance:unsatisfied"
+
+}
+
+}
+
+console.log(regular(Attendence));
+console.log(`Attendence:${Attendence}`);
  
+
+
+
+    
+
+    
 
 
 
