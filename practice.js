@@ -165,7 +165,7 @@ console.log(venkat+abhinav);
 // function numbers(n) {
 //     if(n%15 === 0){
 //         return "hello";
-//     } 
+//     }    
 //     else if(n%5 === 0){
 //         return "hii";
 //     }
@@ -179,8 +179,8 @@ console.log(venkat+abhinav);
 // for(let i=1; i<=20; i++){
 //     console.log(numbers(i)); 
 // }
-function student(name) {
-    return `${name}`;
+ function student(name) {
+   return `${name}`;
     
 }
 console.log(student("student name:venkat"));
@@ -232,13 +232,163 @@ else if(Attendence <= 49){
 
 console.log(regular(Attendence));
 console.log(`Attendence:${Attendence}`);
- 
 
+// function double (n){
+//     return n*2;
+// }
+// console.log(double(5));
+// console.log(double(10));
+// console.log(double(20));
 
+// const multiply=(n) => n*2;
+// console.log(multiply(200));
 
+// const addition=(n) => n+5;
+// console.log(addition(5));
+
+// const sub=(n) => n-10;
+// console.log(sub(3));
+
+// const greetuser = (name) => {
+//     return `welcome, ${name}!`;
+// }
+// console.log(greetuser("krishna"));
+
+// function shout(message){
+//     return message.toUpperCase();
+// }
+// console.log(shout("hi, hello!"));
+
+// function gettingname (Fn,Ln){
+//     return Fn+Ln
+// }
+// console.log(gettingname("aravind", "anil"));
+
+const cleanSpaces =text => text.trim();
+const fixWord     =(text,oldW,newW) => text.replace(oldW,newW);
+const fixAllWords =(text,oldW,newW) => text.replaceAll(oldW,newW);   
+const cutText     =(text,start,end) => text.slice(start,end);
+
+console.log(cleanSpaces("clean me"));
+console.log(fixWord("good day","bad","good"));
+console.log(fixAllWords("bad day","bad","good"));
+console.log(cutText("Javascript",4,10));
+
+////// ******** Function With Multiple Parameter ********** //////
+
+const add = (a,b) => a+b;
+console.log(add(5,10));
+
+ const multiply = (x,y) => x*y;
+console.log(multiply(3,2));
+
+function getFullname (Fn,Ln){
+    return `${Fn} ${Ln}`;
+}
+console.log(getFullname("Hello! This is Venkat.", "and I am from Vijayawada"));
+
+function greet(name = "friends"){
+    return `hello, ${name}!`;
+}
+console.log(greet());
+console.log(greet("venkat"));
+console.log(greet(""));
+
+////******** Nested validation ********////
+
+// function purchase(balance,price){
+//     if(balance < 0){
+//         return `no balance`
+//     }
+//     if(price <=0){
+//         return`invalid price`
+//     }
+//     if(balance < price){
+//         return`insufficent balance`
+//     }
+// }
+// console.log(purchase(100,0));
+// console.log(purchase(100,200));
+// console.log(purchase(0,200));
+// console.log(purchase());
+// console.log(purchase(-1,200));
+
+// function purse(balance,price){
+//     if(balance !== undefined && price !== undefined){
+//         (balance >=0) 
+//             if(price >=0){
+//                 if(balance >= price){
+//                     return "purchase successfull";
+//                 }else {return "Insufficent balance";}
+//             }else{return "Inavalid price";}
+        
     
+// }else {return "no balance";}
+// }
+// console.log(purchase(100,0));
+// console.log(purchase(100,200));
+// console.log(purchase(0,200));
+// console.log(purchase());
+// console.log(purchase(-1,200));
 
-    
+function bookTicket(age,rating){
+    if(age === undefined && rating === undefined){
+        return "Missing arguments"}
+        if(age<0){return "invalid age";}
+
+        if(age >=20 && rating ==="A"){
+            return "ticket booked";}
+
+        if(age <=20 && rating ==="U"){
+            return "ticket booked";}
+        
+        return "not allowed";
+           
+        
+}
+console.log(bookTicket(20,"A"));
+console.log(bookTicket(15,"A"));
+console.log(bookTicket(15,"U"));
+console.log(bookTicket());
+console.log(bookTicket(-1,"U"));
+
+function purse(balance,price){
+    if(balance < 0){
+        return `no balance`
+    }
+    if(price <=0){
+        return`invalid price`
+    }
+    if(balance < price){
+        return`insufficent balance`
+    }
+    return`purchase successfull`
+}
+console.log(purse(100,0));
+console.log(purse(100,200));
+console.log(purse(0,200));
+console.log(purse());
+console.log(purse(-1,200));
+
+////****** Function into Function *******//// 
+
+function applyDiscount(amount){
+    return amount - amount *0.10;
+}
+function addGST(amount){
+    return amount+amount *0.05; 
+}
+function finalBill(amount){
+    let afterdiscount = applyDiscount(amount);
+    let total = addGST(afterdiscount);
+    return total;
+}
+console.log(finalBill(2000)); 
+
+
+
+
+
 
 
 
