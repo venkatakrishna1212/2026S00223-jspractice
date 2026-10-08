@@ -264,35 +264,35 @@ console.log(`Attendence:${Attendence}`);
 // }
 // console.log(gettingname("aravind", "anil"));
 
-const cleanSpaces =text => text.trim();
-const fixWord     =(text,oldW,newW) => text.replace(oldW,newW);
-const fixAllWords =(text,oldW,newW) => text.replaceAll(oldW,newW);   
-const cutText     =(text,start,end) => text.slice(start,end);
+// const cleanSpaces =text => text.trim();
+// const fixWord     =(text,oldW,newW) => text.replace(oldW,newW);
+// const fixAllWords =(text,oldW,newW) => text.replaceAll(oldW,newW);   
+// const cutText     =(text,start,end) => text.slice(start,end);
 
-console.log(cleanSpaces("clean me"));
-console.log(fixWord("good day","bad","good"));
-console.log(fixAllWords("bad day","bad","good"));
-console.log(cutText("Javascript",4,10));
+// console.log(cleanSpaces("clean me"));
+// console.log(fixWord("good day","bad","good"));
+// console.log(fixAllWords("bad day","bad","good"));
+// console.log(cutText("Javascript",4,10));
 
-////// ******** Function With Multiple Parameter ********** //////
+// ////// ******** Function With Multiple Parameter ********** //////
 
-const add = (a,b) => a+b;
-console.log(add(5,10));
+// const add = (a,b) => a+b;
+// console.log(add(5,10));
 
- const multiply = (x,y) => x*y;
-console.log(multiply(3,2));
+//  const multiply = (x,y) => x*y;
+// console.log(multiply(3,2));
 
-function getFullname (Fn,Ln){
-    return `${Fn} ${Ln}`;
-}
-console.log(getFullname("Hello! This is Venkat.", "and I am from Vijayawada"));
+// function getFullname (Fn,Ln){
+//     return `${Fn} ${Ln}`;
+// }
+// console.log(getFullname("Hello! This is Venkat.", "and I am from Vijayawada"));
 
-function greet(name = "friends"){
-    return `hello, ${name}!`;
-}
-console.log(greet());
-console.log(greet("venkat"));
-console.log(greet(""));
+// function greet(name = "friends"){
+//     return `hello, ${name}!`;
+// }
+// console.log(greet());
+// console.log(greet("venkat"));
+// console.log(greet(""));
 
 ////******** Nested validation ********////
 
@@ -331,59 +331,306 @@ console.log(greet(""));
 // console.log(purchase());
 // console.log(purchase(-1,200));
 
-function bookTicket(age,rating){
-    if(age === undefined && rating === undefined){
-        return "Missing arguments"}
-        if(age<0){return "invalid age";}
+// function bookTicket(age,rating){
+//     if(age === undefined && rating === undefined){
+//         return "Missing arguments"}
+//         if(age<0){return "invalid age";}
 
-        if(age >=20 && rating ==="A"){
-            return "ticket booked";}
+//         if(age >=20 && rating ==="A"){
+//             return "ticket booked";}
 
-        if(age <=20 && rating ==="U"){
-            return "ticket booked";}
+//         if(age <=20 && rating ==="U"){
+//             return "ticket booked";}
         
-        return "not allowed";
+//         return "not allowed";
            
         
-}
-console.log(bookTicket(20,"A"));
-console.log(bookTicket(15,"A"));
-console.log(bookTicket(15,"U"));
-console.log(bookTicket());
-console.log(bookTicket(-1,"U"));
+// }
+// console.log(bookTicket(20,"A"));
+// console.log(bookTicket(15,"A"));
+// console.log(bookTicket(15,"U"));
+// console.log(bookTicket());
+// console.log(bookTicket(-1,"U"));
 
-function purse(balance,price){
-    if(balance < 0){
-        return `no balance`
-    }
-    if(price <=0){
-        return`invalid price`
-    }
-    if(balance < price){
-        return`insufficent balance`
-    }
-    return`purchase successfull`
-}
-console.log(purse(100,0));
-console.log(purse(100,200));
-console.log(purse(0,200));
-console.log(purse());
-console.log(purse(-1,200));
+// function purse(balance,price){
+//     if(balance < 0){
+//         return `no balance`
+//     }
+//     if(price <=0){
+//         return`invalid price`
+//     }
+//     if(balance < price){
+//         return`insufficent balance`
+//     }
+//     return`purchase successfull`
+// }
+// console.log(purse(100,0));
+// console.log(purse(100,200));
+// console.log(purse(0,200));
+// console.log(purse());
+// console.log(purse(-1,200));
 
 ////****** Function into Function *******//// 
 
-function applyDiscount(amount){
-    return amount - amount *0.10;
-}
-function addGST(amount){
-    return amount+amount *0.05; 
-}
-function finalBill(amount){
-    let afterdiscount = applyDiscount(amount);
-    let total = addGST(afterdiscount);
-    return total;
-}
-console.log(finalBill(2000)); 
+// function applyDiscount(amount){
+//     return amount - amount *0.10;
+// }
+// function addGST(amount){
+//     return amount+amount *0.05; 
+// }
+// function finalBill(amount){
+//     let afterdiscount = applyDiscount(amount);
+//     let total = addGST(afterdiscount);
+//     return total;
+// }
+// console.log(finalBill(2000)); 
+
+// function strikeRate(runs,balls){
+//     return runs/balls *100;
+
+// }
+// function playerType(runs,balls){
+//     if (runs === undefined || balls === undefined){
+//         return "misssing Arguments";
+//     }
+//     if (runs < 0 || balls <=0){
+//         return "Invalid input";
+//     }
+
+//     let rate = strikeRate(runs,balls);{
+
+//     }
+//     if(rate >=150){
+//         return "power hitter"
+//     }
+//     else if(rate >=100){
+//         return "steady batter"
+//     }
+//     else{
+//         return "slow starter"
+//     }
+
+// }
+// console.log(playerType(60,30));
+// console.log(playerType(45,40));
+// console.log(playerType(20,40));
+// console.log(playerType(10,0));
+// console.log(playerType());
+
+
+// function damage(attack,shield){
+//     return (attack-shield);
+// }
+// function healthlife(health,attack,shield){
+//     return (health-damage(attack,shield));
+// }
+// function battleresult(health,attack,shield){
+//     let game = healthlife(health,attack,shield);
+//     if (game < 0){
+
+//     }
+// }
+
+////*********Array *********////
+
+const fruits =["mango","banana","apple"];
+console.log(fruits);
+console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);
+console.log(fruits.length);
+
+const weekdays =["monday","tuesday","wednesday","thusday","friday","saturday","sunday"];
+console.log(weekdays);
+console.log(weekdays[0]);
+console.log(weekdays[1]);
+console.log(weekdays[2]);
+console.log(weekdays[3]);
+console.log(weekdays[4]);
+console.log(weekdays[5]);
+console.log(weekdays[6]);
+console.log(weekdays[7]);
+console.log(weekdays.length-6);
+
+const present = ["asha","ravi","meena","john","fatima"];
+console.log(`total present: ${present.length}`); 
+
+const cart =["pen","notebook"];
+console.log(cart);
+cart.push("eraser");
+console.log(cart);
+
+/////******pop*******/////
+/////******const removed = arrayName.pop(); => remove from the end **********/////
+
+const removed = cart.pop();
+console.log(removed);
+console.log(cart);
+
+const tiffins = [];
+console.log(tiffins);
+tiffins.push("idly", "dosa","coffee",);
+console.log(tiffins);
+
+const back = tiffins.pop();
+console.log(back);
+console.log(tiffins);
+
+tiffins.push("tea");
+console.log(tiffins); 
+
+///////******Foreach*******///////
+// arrayName.forEach((item,index)=>{
+//     //code goes here
+// })
+
+// const names=["venkat","abhinav","sameer","hruday","akram"];
+// console.log(names);
+
+// names.forEach(function(names) {
+//     console.log(`hi,hello ${names}`)
+// })
+
+
+// const prices =[120,45,80,250];
+// console.log(prices);
+
+// prices.forEach(function(prices,index){
+//     console.log(`item ${index +1}:Rs. ${prices}`)
+// })
+
+//////*******Map*******///////
+
+// const withTax = prices.map((prices)=> prices *1.18);
+// console.log(prices);
+// console.log(withTax);
+
+//      /////**problems**//////
+//      const celsius =[0,25,30,37,100];
+//     //  console.log(celsius);
+//      const temp = celsius.map((celsius)=>celsius *9/5+32);
+//      console.log(celsius);
+//      console.log(temp);
+
+       ///////********Filter********///////
+
+       const ages = [19,25,17,45,15];
+       const adults = ages.filter((age)=>age >=18);
+       console.log(adults);
+
+       const seniors = ages.filter((age)=>age >=60);
+       console.log(seniors);
+       console.log(ages);
+           
+             /////problem///////
+
+    //    const password = ["abc123","sunshine99","qwerty","MyPass@2026","letmein!"];
+    //    const strong = password.filter((n)=>n.length>=8);
+    //    console.log(strong);
+
+    //     const weak = password.filter((n)=>n.length<8);
+    //     console.log(weak);
+
+        /////////*******Find*******////////
+       
+    //    const password = ["abc123","sunshine99","qwerty","MyPass@2026","letmein!"];
+    //    const strong = password.find((n)=>n.length>=8);
+    //    console.log(strong);
+
+    //    const weak = password.find((n)=>n.length<8);
+    //    console.log(weak);
+
+    //    const books = ["python basics","learn javascript","eloquent javascript","c programming"];
+    //    const java= books.find((v)=>v.includes ("javascript"));
+    //    console.log(`found:${java}`);
+
+    //    const basics= books.find((v)=>v.includes ("rust"));
+    //    console.log(basics);
+
+
+       /////////******Object*******////////
+
+       const students = {
+        name:"venkat",
+        age:20,
+         course:"javascript",
+        ishosteller:true,
+        skills:["HTML","CSS"]
+    }
+    console.log(students.name);
+
+
+    const id={
+        name:"Venkat",
+        rollno:12,
+        dept:"CSE",
+        year:2,
+        Hostel:true
+    }
+
+    console.log(id);
+    console.log("----------ID CARD----------");
+    console.log(`name:${id.name}`);
+    console.log(`rollno:${id.rollno}`);
+    console.log(`dept:${id.dept}`);
+    console.log(`year:${id.year}`);
+    console.log(`Hostel:${id.Hostel}`);
+    console.log("*-------------------------------------*")
+      
+    ///////*******objecct*******////////
+
+     const studentss =[
+        {name:"venkat",age:20,course:"javascript"},
+        {name:"abhinav",age:21,course:"python"},
+        {name:"hruday",age:22,course:"html"},
+        {name:"akram",age:23,course:"css"},
+     ]
+
+     console.log(studentss);
+     console.log(studentss[0].name);
+     console.log(studentss[0].age);
+     console.log(studentss[0].course);
+
+     studentss.forEach((s)=>console.log(`${s.name} ${s.age} ${s.course}`));
+
+     const  product=[
+        {name:"godday",price:10,category:"food"},
+        {name:"chair",price:1000,category:"funiture"},
+        {name:"phone",price:10000,category:"electronics"},
+        {name:"bat",price:100,category:"game"},
+        {name:"soap",price:20,category:"bath"},
+    
+     ]
+     product.forEach((a)=>console.log(`${a.name} ${a.price} ${a.category}`));
+     
+     const obb =product.filter((n)=>n.price>=500);
+     console.log(obb);
+     
+     const opp= product.filter((n)=>n.price<=500);
+     console.log(opp);
+
+     const opps = product.map((n)=>n.name);  
+     console.log(opps);
+     
+    //  console.log(product);
+    
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
 
 
 
