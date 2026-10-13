@@ -1,59 +1,59 @@
-console.log("Hello World!");
+// console.log("Hello World!");
 
-console.log(2+2);
-console.log("hello World");
-console.log(3*2);
-const a=10;
-const b=20;
-console.log(a+b);
+// console.log(2+2);
+// console.log("hello World");
+// console.log(3*2);
+// const a=10;
+// const b=20;
+// console.log(a+b);
 
-let v=20;
-let d=10;
-console.log(v*d);
+// let v=20;
+// let d=10;
+// console.log(v*d);
 
-score=100+200+300;
-console.log(score);
+// score=100+200+300;
+// console.log(score);
 
-venkat=20;
-abhinav=30;
-console.log(venkat+abhinav);
+// venkat=20;
+// abhinav=30;
+// console.log(venkat+abhinav);
 
- const name="venkat";
- let age=20;
- const is_student=true;
- let city=null;
- let village=null;
- console.log(typeof name);
- console.log(typeof age);
- console.log(typeof is_student);
- console.log(city);
- console.log(village);  
+//  const name="venkat";
+//  let age=20;
+//  const is_student=true;
+//  let city=null;
+//  let village=null;
+//  console.log(typeof name);
+//  console.log(typeof age);
+//  console.log(typeof is_student);
+//  console.log(city);
+//  console.log(village);  
 
- console.log(`My Name Is ${name} and I am ${age}`);
- console.log(`I am From ${city} `);
- console.log(`next Year is ${2026+1}`);
- console.log(`I am a Avarage Student ${is_student}`);
+//  console.log(`My Name Is ${name} and I am ${age}`);
+//  console.log(`I am From ${city} `);
+//  console.log(`next Year is ${2026+1}`);
+//  console.log(`I am a Avarage Student ${is_student}`);
 
- const nani=10;
- const pandu=20;
- console.log(nani+pandu);
- console.log(nani*pandu);
- console.log(nani/pandu);    
- console.log(nani-pandu);
- console.log(nani%pandu);   
+//  const nani=10;
+//  const pandu=20;
+//  console.log(nani+pandu);
+//  console.log(nani*pandu);
+//  console.log(nani/pandu);    
+//  console.log(nani-pandu);
+//  console.log(nani%pandu);   
 
- const c="5";
- const e=5;
- const f=5;
- const h=5;
+//  const c="5";
+//  const e=5;
+//  const f=5;
+//  const h=5;
 
- console.log(c===e);
- console.log(e===c);
- console.log(c===h);
- console.log(f==e);
- console.log(h==e);
- console.log(f!==e);
- console.log(e!=h);
+//  console.log(c===e);
+//  console.log(e===c);
+//  console.log(c===h);
+//  console.log(f==e);
+//  console.log(h==e);
+//  console.log(f!==e);
+//  console.log(e!=h);
 
 //  let raining=true;
 
@@ -179,59 +179,59 @@ console.log(venkat+abhinav);
 // for(let i=1; i<=20; i++){
 //     console.log(numbers(i)); 
 // }
- function student(name) {
-   return `${name}`;
+//  function student(name) {
+//    return `${name}`;
     
-}
-console.log(student("student name:venkat"));
+// }
+// console.log(student("student name:venkat"));
 
 // console.log("marks:80");
-let marks=80;
+// let marks=80;
 
-function student1(marks1){
+// function student1(marks1){
 
 
-if (marks1 >=75)
-{
-   return "Grade: A"
+// if (marks1 >=75)
+// {
+//    return "Grade: A"
         
-    }
+//     }
 
-    else if(marks1 >=60)
-        {
-        return "Grade:B"
-    }
-    else if(marks1 >=40)
-        {
-         return "Grade: C"
+//     else if(marks1 >=60)
+//         {
+//         return "Grade:B"
+//     }
+//     else if(marks1 >=40)
+//         {
+//          return "Grade: C"
     
-    }
-    else{
-         return "Grade: F "
+//     }
+//     else{
+//          return "Grade: F "
        
-    }
-}
-console.log(student1(marks));
-console.log(`marks:${marks}`);
+//     }
+// }
+// console.log(student1(marks));
+// console.log(`marks:${marks}`);
 
 
-let Attendence=80;
-function regular(Attendence){
+// let Attendence=80;
+// function regular(Attendence){
 
-    if(Attendence >= 50){
+//     if(Attendence >= 50){
         
-        return "Attendance:satisfied"
-    }
+//         return "Attendance:satisfied"
+//     }
 
-else if(Attendence <= 49){
-    return "Attendance:unsatisfied"
+// else if(Attendence <= 49){
+//     return "Attendance:unsatisfied"
 
-}
+// }
 
-}
+// }
 
-console.log(regular(Attendence));
-console.log(`Attendence:${Attendence}`);
+// console.log(regular(Attendence));
+// console.log(`Attendence:${Attendence}`);
 
 // function double (n){
 //     return n*2;
@@ -433,51 +433,51 @@ console.log(`Attendence:${Attendence}`);
 
 ////*********Array *********////
 
-const fruits =["mango","banana","apple"];
-console.log(fruits);
-console.log(fruits[0]);
-console.log(fruits[1]);
-console.log(fruits[2]);
-console.log(fruits.length);
+// const fruits =["mango","banana","apple"];
+// console.log(fruits);
+// console.log(fruits[0]);
+// console.log(fruits[1]);
+// console.log(fruits[2]);
+// console.log(fruits.length);
 
-const weekdays =["monday","tuesday","wednesday","thusday","friday","saturday","sunday"];
-console.log(weekdays);
-console.log(weekdays[0]);
-console.log(weekdays[1]);
-console.log(weekdays[2]);
-console.log(weekdays[3]);
-console.log(weekdays[4]);
-console.log(weekdays[5]);
-console.log(weekdays[6]);
-console.log(weekdays[7]);
-console.log(weekdays.length-6);
+// const weekdays =["monday","tuesday","wednesday","thusday","friday","saturday","sunday"];
+// console.log(weekdays);
+// console.log(weekdays[0]);
+// console.log(weekdays[1]);
+// console.log(weekdays[2]);
+// console.log(weekdays[3]);
+// console.log(weekdays[4]);
+// console.log(weekdays[5]);
+// console.log(weekdays[6]);
+// console.log(weekdays[7]);
+// console.log(weekdays.length-6);
 
-const present = ["asha","ravi","meena","john","fatima"];
-console.log(`total present: ${present.length}`); 
+// const present = ["asha","ravi","meena","john","fatima"];
+// console.log(`total present: ${present.length}`); 
 
-const cart =["pen","notebook"];
-console.log(cart);
-cart.push("eraser");
-console.log(cart);
+// const cart =["pen","notebook"];
+// console.log(cart);
+// cart.push("eraser");
+// console.log(cart);
 
 /////******pop*******/////
 /////******const removed = arrayName.pop(); => remove from the end **********/////
 
-const removed = cart.pop();
-console.log(removed);
-console.log(cart);
+// const removed = cart.pop();
+// console.log(removed);
+// console.log(cart);
 
-const tiffins = [];
-console.log(tiffins);
-tiffins.push("idly", "dosa","coffee",);
-console.log(tiffins);
+// const tiffins = [];
+// console.log(tiffins);
+// tiffins.push("idly", "dosa","coffee",);
+// console.log(tiffins);
 
-const back = tiffins.pop();
-console.log(back);
-console.log(tiffins);
+// const back = tiffins.pop();
+// console.log(back);
+// console.log(tiffins);
 
-tiffins.push("tea");
-console.log(tiffins); 
+// tiffins.push("tea");
+// console.log(tiffins); 
 
 ///////******Foreach*******///////
 // arrayName.forEach((item,index)=>{
@@ -514,13 +514,13 @@ console.log(tiffins);
 
        ///////********Filter********///////
 
-       const ages = [19,25,17,45,15];
-       const adults = ages.filter((age)=>age >=18);
-       console.log(adults);
+    //    const ages = [19,25,17,45,15];
+    //    const adults = ages.filter((age)=>age >=18);
+    //    console.log(adults);
 
-       const seniors = ages.filter((age)=>age >=60);
-       console.log(seniors);
-       console.log(ages);
+    //    const seniors = ages.filter((age)=>age >=60);
+    //    console.log(seniors);
+    //    console.log(ages);
            
              /////problem///////
 
@@ -550,69 +550,346 @@ console.log(tiffins);
 
        /////////******Object*******////////
 
-       const students = {
-        name:"venkat",
-        age:20,
-         course:"javascript",
-        ishosteller:true,
-        skills:["HTML","CSS"]
-    }
-    console.log(students.name);
+    //    const students = {
+    //     name:"venkat",
+    //     age:20,
+    //      course:"javascript",
+    //     ishosteller:true,
+    //     skills:["HTML","CSS"]
+    // }
+    // console.log(students.name);
 
 
-    const id={
-        name:"Venkat",
-        rollno:12,
-        dept:"CSE",
-        year:2,
-        Hostel:true
-    }
+    // const id={
+    //     name:"Venkat",
+    //     rollno:12,
+    //     dept:"CSE",
+    //     year:2,
+    //     Hostel:true
+    // }
 
-    console.log(id);
-    console.log("----------ID CARD----------");
-    console.log(`name:${id.name}`);
-    console.log(`rollno:${id.rollno}`);
-    console.log(`dept:${id.dept}`);
-    console.log(`year:${id.year}`);
-    console.log(`Hostel:${id.Hostel}`);
-    console.log("*-------------------------------------*")
+    // console.log(id);
+    // console.log("----------ID CARD----------");
+    // console.log(`name:${id.name}`);
+    // console.log(`rollno:${id.rollno}`);
+    // console.log(`dept:${id.dept}`);
+    // console.log(`year:${id.year}`);
+    // console.log(`Hostel:${id.Hostel}`);
+    // console.log("*-------------------------------------*")
       
     ///////*******objecct*******////////
 
-     const studentss =[
-        {name:"venkat",age:20,course:"javascript"},
-        {name:"abhinav",age:21,course:"python"},
-        {name:"hruday",age:22,course:"html"},
-        {name:"akram",age:23,course:"css"},
-     ]
+    //  const studentss =[
+    //     {name:"venkat",age:20,course:"javascript"},
+    //     {name:"abhinav",age:21,course:"python"},
+    //     {name:"hruday",age:22,course:"html"},
+    //     {name:"akram",age:23,course:"css"},
+    //  ]
 
-     console.log(studentss);
-     console.log(studentss[0].name);
-     console.log(studentss[0].age);
-     console.log(studentss[0].course);
+    //  console.log(studentss);
+    //  console.log(studentss[0].name);
+    //  console.log(studentss[0].age);
+    //  console.log(studentss[0].course);
 
-     studentss.forEach((s)=>console.log(`${s.name} ${s.age} ${s.course}`));
+    //  studentss.forEach((s)=>console.log(`${s.name} ${s.age} ${s.course}`));
 
-     const  product=[
-        {name:"godday",price:10,category:"food"},
-        {name:"chair",price:1000,category:"funiture"},
-        {name:"phone",price:10000,category:"electronics"},
-        {name:"bat",price:100,category:"game"},
-        {name:"soap",price:20,category:"bath"},
+    //  const  product=[
+    //     {name:"godday",price:10,category:"food"},
+    //     {name:"chair",price:1000,category:"funiture"},
+    //     {name:"phone",price:10000,category:"electronics"},
+    //     {name:"bat",price:100,category:"game"},
+    //     {name:"soap",price:20,category:"bath"},
     
-     ]
-     product.forEach((a)=>console.log(`${a.name} ${a.price} ${a.category}`));
+    //  ]
+    //  product.forEach((a)=>console.log(`${a.name} ${a.price} ${a.category}`));
      
-     const obb =product.filter((n)=>n.price>=500);
-     console.log(obb);
+    //  const obb =product.filter((n)=>n.price>=500);
+    //  console.log(obb);
      
-     const opp= product.filter((n)=>n.price<=500);
-     console.log(opp);
+    //  const opp= product.filter((n)=>n.price<=500);
+    //  console.log(opp);
 
-     const opps = product.map((n)=>n.name);  
-     console.log(opps);
+    //  const opps = product.map((n)=>n.name);  
+    //  console.log(opps);  
+
+// const scores = [120,45,300,80,210];
+// console.log(scores.length);
+// console.log("first scores;",scores[0]);
+// console.log("last scores:",scores[4]);
+
+// const removes = scores.pop();
+// console.log(scores);
+// scores.push(95);
+// console.log(scores);
+
+// scores.forEach((scores,index)=>console.log(`game ${index + 1}: ${scores}`));
+
+// const gameprice   = scores.map((p)=>p*2);
+// console.log(scores);
+// console.log(gameprice);
+
+// const bad = scores.filter((s)=>s>=100);
+// console.log(scores);
+// console.log(bad);
+
+//  const heading =document.querySelectorAll("p")
+//     console.log(heading);
+//     console.log(heading[0]);
+//     console.log(heading[1]);
+//     console.log(heading[2]);
+//     console.log(heading[3]);
+
+//  const heading =document.querySelectorAll("p")
+//     console.log(heading);
+//     console.log(heading[0]);
+//     console.log(heading[1]);
+//     console.log(heading[2]);
+//     console.log(heading[3]);
+
+    // const heading1 =document.querySelectorAll("nav").forEach(function(heading1){
+    //     console.log(heading1.textContent);
+        
+    // });
+
+    //////////*******DOM********////////
+
+   //  const good =document.querySelector("h1");
+   //  console.log(good.textContent);
+
+   //  const woow =document.querySelector("footer");
+   //  console.log(woow.textContent);
+
+   //  const bike =document.querySelector("nav");
+   //  console.log(bike.textContent);
+
+   //  const fah =document.querySelector("rust");
+   //  console.log(fah);
+
+   //  const intro =document.querySelector(".intro-text");
+   //  intro.innerHTML = "I am aspiring <strong>full-stack </strong> <em>develapor</em>";
+   //  // console.log(intro);
+
+   //  const YearSpan =document.querySelector("#year");
+   //  const currentyear = new Date().getFullYear();
+   //  YearSpan.textContent = currentyear;
+
+   //  const heading2 =document.querySelector("nav a");
+   //  heading2.setAttribute(`title`, `Go to Home page`); 
+   //  console.log(heading2.getAttribute(`title`));
+
+   //  const heading3 = document.querySelector("h1");
+   //  heading3.classList.add(`highlights`);
+   //  heading3.classList.remove(`highlights`);
+   //   heading3.classList.toggle(`highlights`);
+   //    heading3.classList.contains(`highlights`);
+   //    console.log(heading3.classList.contains(`highlights`));   
+
+   //    const fact = document.querySelector("p");
+   //    fact.textContent = `fact: this paragraph is made by javascript.`;
+   //    document.querySelector(`main`).appendChild(fact);
+      
+      ///////*******Event*******////////
+    
+      // const button =document.getElementById("clickbtn");
+      // const result=document.getElementById("result");
+      // button.addEventListener("click",function(){
+      //    result.textContent ="Button Clicked";
+      // });
+
+      ////////*******Click*******//////////
+
+      const form=document.getElementById("myForm");
+      const username=document.getElementById("username");
+      const message=document.getElementById("message");
+      form.addEventListener("submit",function(event){
+         event.preventDefault();
+         message.textContent="Welcome," +username.value+ "!"
+       });
+
+      const button=document.getElementById("one");
+      const messages=document.getElementById("messages");
+      button.addEventListener("click",function(){
+         messages.textContent ="Welcome to javascript";
+      });
+
+      const navToggle=document.querySelector('#navToggle');
+      const siteNav=document.querySelector('.siteNav');     
+      navToggle.addEventListener('click',function(){
+         siteNav.classList.toggle('nav-open');
+      });
+
+      const themeToggle=document.querySelector('#darkandlight');
+      themeToggle.addEventListener('click',function(){
+         document.body.classList.toggle('darkmode');
+      });
+
+      ///////******Rander*******////////
+
+      const projects =[
+         {title:"portfolio",tag:"Web",year:"2024"},
+         {title:"Recipe Generating",tag:"Web",year:"2025"},
+         {title:"poster series",tag:"Web",year:"2026"},
+         {title:"fodd making",tag:"Web",year:"2027"},
+      ]
+      const grid=document.querySelector("#grid");
+      grid.innerHTML = projects.map(p=>`<div class="card"<h3>${p.title}</h3><p>${p.tag} . ${p.year}</p></div>`) 
+       .join("");  
+         
+       const contact=[
+         {name:"venkat",course:"CSE",year:"2",score:"80"},
+         {name:"abhinav",course:"CSE",year:"2",score:"90"},
+          {name:"sameer",course:"MEC",year:"2",score:"70"},
+           {name:"hruday",course:"BBA",year:"2",score:"60"}
+       ]
+       const fa=document.querySelector("#studentGrid");
+       fa.innerHTML =contact
+       .map(v=>`<div class="card"<h3>${v.name}</h3><p>Course:${v.course}</p><p>year:${v.year}</p><p>Score:${v.score}</p></div>`)
+       .join("");
+
+    //    const products=[
+    //      {name:"headphones",category:"electronics",price:"1500",instock:"true"},
+    //      {name:"shirt",category:"clothes",price:"1000",instock:"true"},
+    //      {name:"shoes",category:"foot wear",price:"2500",instock:"true"},
+    //      {name:"watch",category:"style",price:"3000",instock:"true"},
+    //      {name:"keyboard",category:"typing",price:"500",instock:"true"},
+    //      {name:"nacklase",category:"gold",price:"5000",instock:"true"}
+    //    ]
+    //    const productGrid=document.querySelector("#productGrid");
+    //    const filterproducts=products.filter(p=>p.price<=3000);
+    //    const filterproduct=products.filter(p=>p.category==="Electonics");
+    //    productGrid.innerHTML=filterproducts
+    //    .map(s=>`<div class="card"<h3>${s.name}</h3><p>price:${s.price}</p><p>instock:${s.instock}</p></div>`)
+    //    .join("");
+
+    //    function renderProducts(item){
+    //      const productGrid=document.querySelector("#productGrid");
+    //      productGrid.innerHTML=item
+    //      .map(s=>`<div><h3>${s.name}</h3><p>category:${s.category}</p><p>price:${s.prices}</p></div>`)
+    //      .join("");
+    //    } 
+    //    function renderFilterButton(){
+    //      const categories=[
+    //         "All",...new Set(products.map(s=>s.category))
+    //      ];
+    //      document.querySelector('#filterButton').innerHTML=
+    //      categories.map(category=>`<button class"filterBtn" data-category="${category}">$
+    //         {category}</button>`)
+    //         .join("");}
+
+    //         renderFilterButton();
+    //         applyFilter("All");
+    //         document.querySelector('#filterButton').addEventListener("click",function(event){
+    //            if(event.target.classList.contains("filterBtn")){
+    //               applyFilter(event.target.dataset.category);
+    //            }
+    //         });
+      
+
+const products=[
+        {name:"Headphones",catergory:"electronics",price:4000,instock:true},
+        {name:"t-shirt",catergory:"clothes",price:500,instock:true},
+        {name:"Smart Watch",category:"gadget",price:3000,instock:false},
+        {name:"Backpack",category:"thing",price:800,instock:true},
+        {name:"Keyboard",category:"computer",price:900,instock:true}
+    ];
+
+    function applyFilter(category) {
+    if (category === "All") {
+        renderProducts(products);
+    } else {
+        renderProducts(
+            products.filter(p => p.category === category)
+        )
+    }
+}
+
+
+function renderProducts(item) {
+    const productGrid = document.querySelector('#productGrid');
+    productGrid.innerHTML = item
+        .map(p => `<div><h3>${p.name}</h3><p>Catogery:${p.catogery}</p><p>Price:${p.price}</p></div>`)
+        .join(" ");
+}
+
+    function renderFilterButton() {
+        const categories = [
+            "All", ...new Set(products.map(p => p.category))
+        ];
+        document.querySelector('#filterButton').innerHTML =
+            categories.map(category => `<button class="filterBtn" data-category="${category}">${category}</button>`)
+                .join("");
+    }
+    renderFilterButton();
+    applyFilter("All");
+    document.querySelector('#filterButton').addEventListener("click", function (event) {
+        if (event.target.classList.contains("filterBtn")){
+            applyFilter(event.target.dataset.category);
+        }
+    });
+
+    const product=[
+      {name:"phone",category:"electronic",price:5000,rating:4,instock:"available",discount:"30%"},
+      {name:"shirts",category:"clothes",price:1000,rating:3,instock:"available",discount:"40%"},
+      {name:"watch",category:"gadget",price:6000,rating:2,instock:"not available",discount:"50%"},
+      {name:"keyboard",category:"typing",price:9000,rating:4,instock:"not available",discount:"60%"},
+      {name:"computer",category:"machine",price:7000,rating:5,instock:"available",discount:"70%"},
+      {name:"nacklase",category:"gold",price:8000,rating:3,instock:"available",discount:"80%"},
+      {name:"sofa",category:"furniture",price:3000,rating:4,instock:"not available",discount:"90%"}
      
-    //  console.log(product);
+    ]
+    function applyFilter(category) {
+    if (category === "All") {
+        renderProducts(product);
+    } else {
+        renderProducts(
+            product.filter(p => p.category === category)
+        )
+    }
+}
+function renderProducts(item){
+   const productGrid=document.querySelector('#productGrid');
+   productGrid.innerHTML=item
+   .map(p=>`<div><h3>${p.name}</h3><p>category:${p.category}</p><p>price:${p.price}</p><p>rating:${p.rating}</p><P>instock:${p.instock}</p><P>discount:${p.discount}</p><div>`)
+   .join("");
+}
+  
+    function renderFilterButton() {
+        const categories = [
+            "All", ...new Set(product.map(p => p.category))
+        ];
+        document.querySelector('#filterButton').innerHTML = categories.map(category => `<button class="filterBtn" data-category="${category}">${category}</button>`)
+                .join("");
+    }
+
+     renderFilterButton();
+    applyFilter("All");
+    document.querySelector('#filterButton').addEventListener("click", function (event) {
+        if (event.target.classList.contains("filterBtn")){
+            applyFilter(event.target.dataset.category);
+        }
+    });    
+    
+      
+    
+
+
+    
+
+
+
+
+
+    
+      
+      
+
+    
+
+
+
+     
+     
+    
     
 
 

@@ -1,0 +1,14 @@
+#siteNav{
+    display:flex
+}
+.nav-open{
+    display:flex;
+    flex-direction: column;
+}
+.darkmode{
+    background-color: rgb(192, 39, 197);
+    color:white;
+}
+ .darkmode a{
+    color:rgb(9, 255, 0);
+} 
