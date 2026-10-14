@@ -77,8 +77,39 @@
  <button id="filterButton"></button>
 <div id="productGrid"></div>
 
-<!-- <div class="card"><h2>name:venkat</h2><p>course .2026</p></div>
-<div class="card"><h2>name:abhinav</h2><p>course</p></div> -->
+<form id="studentForm" action="/submit" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" pattern="[A-Za-z]{3,50}" required>
+        <span id="nameError"></span>
+        <br><br>
+
+        <label for="email address">Email</label>
+        <input type="text" id="email address" required>
+        <span id="emailError"></span>
+        <br><br>
+
+        <label for="mobile number">mobile number</label>
+        <input type="text" id="mobile number" pattern="[6-9][0-9]{9}" required>
+        <span id="numberError"></span>
+        <br><br>
+
+        <label for="password">password</label>
+        <input type="text" id="password" required>
+        <span id="passwordError"></span>
+        <br><br>
+
+
+        <label for="conform password">conform password</label>
+        <input type="text" id=" conform password" required>
+        <span id="conformpasswordError"></span>
+        <br><br>
+
+        <button type="submit">submit</button>
+
+    </form>
+        
+
+
 
 
 
